@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
         videoPreview.onloadeddata = function() {
           try {
             // Set video current time to get a frame for thumbnail
-            videoPreview.currentTime = 2000; // Get frame at 2000 second
+            videoPreview.currentTime = 2000; // Get frame at 2000 second.
 
             videoPreview.onseeked = function() {
               // Create thumbnail from video frame
